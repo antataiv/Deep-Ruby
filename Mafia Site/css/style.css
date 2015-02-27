@@ -1,0 +1,102 @@
+@font-face {
+	font-family: TheGodfather;
+	src: url(../fonts/TheGodfather-v2.ttf);
+}
+
+body {
+	background-image: url(../images/mafia-back.jpg);
+	background-size: cover;
+	width: 90%;
+	margin: 10px auto;
+}
+
+#page-header {
+	display: flex;
+	margin: 10px 30px;
+}
+
+.logo-image {
+	max-width: 100px;
+	padding: 0px 50px;
+	border: none;
+}
+
+.header-text {
+	font-size: 5em;
+	font-family: TheGodfather;
+	color: darkred;
+	padding-left: 50px;
+}
+
+#menu {
+	margin: 10px 30px;
+}
+
+#menu > ul > li {
+	display: inline-block;
+	cursor: pointer;
+}
+
+#menu > #main-menu > li:hover #sub-menu {
+	display: block;
+}
+
+#menu > #main-menu > li > #sub-menu {
+	position: absolute;
+	display: none;
+}
+
+#menu > #main-menu > li > #sub-menu > li > a {
+	padding-top: 10px;
+	margin-left: 100px;
+	display: block;
+	height: 30px;
+	color: darkred;
+	background-color: darkgrey;
+	border: 1px solid darkred;
+	text-decoration: none;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#menu > #main-menu > li > a {
+	margin: 15px;
+	font-size: 2em;
+	font-weight: bold;
+	color: darkred;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: grey;
+	text-decoration: none;
+}
+
+#menu > #main-menu > li > a:hover {
+	margin: 15px;
+	font-size: 2em;
+	font-weight: bold;
+	color: lightgrey;
+	padding: 10px;
+	border-radius: 10px;
+	border-color: 2px solid darkred;
+	background-color: darkgrey;
+	text-decoration: none;
+}
+
+#main-content {
+	margin: 50px 50px;
+}
+
+.contact-details {
+	display: inline-block;
+}
+
+.contact-details > img {
+	background-color: white;
+	max-height: 25px;
+	border-radius: 5px;
+	margin: 5px;
+}
+
+span {
+	color: white;
+}
