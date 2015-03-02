@@ -1,0 +1,25 @@
+#contact-contents {
+	margin: 50px 50px;
+}
+
+#contact-contents > article {
+	color: white;
+	font-size: 3em;
+}
+
+#contact-contents > article > .contact-details {
+	display: inline-block;
+	padding-left: 40px;
+}
+
+#contact-contents > article > .contact-details > img {
+	background-color: white;
+	max-height: 25px;
+	border-radius: 5px;
+	margin: 5px;
+}
+
+#contact-contents > article > .map {
+	margin: 10px auto;
+	text-align: center;
+}
