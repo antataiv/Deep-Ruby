@@ -94,3 +94,16 @@ section > article p.p-color {
 section > article p.p-color:hover {
 	color: red;
 }
+p.final-words {
+	font-family: Arial;
+	width: 65%;
+	margin: 0px auto;
+	font-size: 30px;
+	color: #FFFFFF;
+	text-align: center;
+	text-align: center;
+	margin-bottom: 25px;
+}
+p.final-words:hover {
+	color: #8B0000;
+}
