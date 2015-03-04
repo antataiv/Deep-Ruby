@@ -2,6 +2,7 @@
 	width: 80%;
 	padding-left: 10%;
 	padding-right: 10%;
+	margin-bottom: 10px;
 }
 
 #index-content > article {
@@ -43,12 +44,27 @@
 	color: rgb(198, 198, 198);
 }
 
-#index-content > article > div > ol {
+#index-content > article > div > ul {
 	color: rgb(255, 255, 255);
 	text-align: center;
-	list-style-type: decimal;
+	list-style-type: none;
+	width: 50%;
+	margin: 0 auto;
 }
 
-#index-content > article > div > ol > li {
+#index-content > article > div > ul > li {
 	padding: 5px 0px;
+	border: 1px solid rgb(0, 0, 0);
+	border-radius: 5px;
+	margin-bottom: 2px;
+}
+
+#index-content > article > div > ul > li > a {
+	text-decoration: none;
+	color: #8B0000;
+}
+
+#index-content > article > div > ul > li > a:hover {
+	text-decoration: none;
+	color: rgb(198, 198, 198);
 }
