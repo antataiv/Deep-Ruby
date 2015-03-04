@@ -1,10 +1,11 @@
 #contact-contents {
 	margin: 50px 50px;
+	font-family: Arial;
 }
 
 #contact-contents > article {
 	color: white;
-	font-size: 3em;
+	font-size: 1.3em;
 	width: 80%;
 	padding-left: 10%;
 	padding-right: 10%;
