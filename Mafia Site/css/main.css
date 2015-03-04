@@ -1,109 +1,40 @@
-#contact-contents {
-	margin: 50px 50px;
+#index-content {
+	width: 80%;
+	padding-left: 10%;
+	padding-right: 10%;
 }
 
-#contact-contents > article {
-	color: white;
+#index-content > article {
+	background-color: rgba(198, 198, 198, 0.6);
+	border-radius: 10px;
+}
+
+#index-content > article > header > h1 {
 	font-size: 3em;
-}
-
-#contact-contents > article > .contact-details {
-	display: inline-block;
-	padding-left: 40px;
-}
-
-#contact-contents > article > .contact-details > img {
-	background-color: white;
-	max-height: 25px;
-	border-radius: 5px;
-	margin: 5px;
-}
-
-#contact-contents > article > .map {
-	margin: 10px auto;
 	text-align: center;
-}
-section {
-	width: 100%;
-}
-section > header {
-	width: 100%;
-	margin: 20px 0px;
-	text-align: center;
-}
-section > header > h1 {
-	width: 300px;
-	font-size: 60px;
-	color: #FFFFFF;
+	color: rgb(255, 255, 255);
 	margin: 50px auto 20px auto;
+	padding-top: 10px;
 }
-section > header > h1:hover {
-	color: #8B0000;
+
+#index-content > article > div > img {
+	width: 60%;
+	padding-left: 20%;
+	padding-right: 20%;
 }
-section > header > h3 {
-	width: 65%;
-	margin: 0px auto;
-	font-size: 30px;
-	color: #FFFFFF;
-}
-section > header > h3:hover {
-	color: #8B0000;
-}
-section > article.person {
-	border: 1px solid #8B0000;
-	border-radius: 5px;
-	font-family: Arial;
-	width: 250px;
-	color: #FFFFFF;
+
+#index-content > article > div > p {
+	color: rgb(255, 255, 255);
+	padding: 10px 0;
 	text-align: center;
-	margin: 30px 9px;
-	padding-bottom: 10px;
-	display: inline-block;
 }
-section > article.person:hover {
-	border-color: #A9A9A9;
-}
-section > article.article > header {
-	margin: 10px 0px;
-	font-size: 25px;
+
+#index-content > article > div > p > a {
+	text-decoration: none;
 	color: #8B0000;
-	text-decoration: underline;
 }
-section > article.person > header:hover {
-	color: red;
-}
-section  article  header img {
-	width: 200px;
-	height: 200px;
-	margin-top: 10px;
-	box-sizing: border-box;
-}
-section  article.person  header img:hover {
-	border: 3px solid white;
-}
-p.info {
-	color: #A9A9A9;
-	margin: 10px 0px;
-	height: 170px;
-}
-section > article.person p.p-color {
-	margin: 5px 0px;
-	color: #8B0000;
-	font-size: 20px;
-}
-section > article.person p.p-color:hover {
-	color: red;
-}
-p.final-words {
-	font-family: Arial;
-	width: 65%;
-	margin: 0px auto;
-	font-size: 30px;
-	color: #FFFFFF;
-	text-align: center;
-	text-align: center;
-	margin-bottom: 25px;
-}
-p.final-words:hover {
-	color: #8B0000;
+
+#index-content > article > div > p > a:hover {
+	text-decoration: none;
+	color: rgb(198, 198, 198);
 }

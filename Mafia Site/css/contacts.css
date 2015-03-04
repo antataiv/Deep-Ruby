@@ -1,0 +1,42 @@
+#contact-contents {
+	margin: 50px 50px;
+}
+
+#contact-contents > article {
+	color: white;
+	font-size: 3em;
+	width: 80%;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+
+#contact-contents > article > .map {
+	margin: 10px auto;
+	text-align: center;
+}
+
+#contact-contents > article > .contacts {
+	width: 80%;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+#contact-contents > article > .contacts > .contact-details {
+	display: inline-block;
+	text-align: center;
+}
+
+#contact-contents > article > .contacts > .contact-details > img {
+	background-color: white;
+	max-height: 25px;
+	border-radius: 5px;
+	margin: 5px;
+}
+
+#index-content {
+	color: #A0A9A2;
+	width: 80%;
+	padding-left: 10%;
+	padding-right: 10%;
+}
