@@ -49,7 +49,7 @@ section > header > h3 {
 section > header > h3:hover {
 	color: #8B0000;
 }
-section > article {
+section > article.person {
 	border: 1px solid #8B0000;
 	border-radius: 5px;
 	font-family: Arial;
@@ -60,16 +60,16 @@ section > article {
 	padding-bottom: 10px;
 	display: inline-block;
 }
-section > article:hover {
+section > article.person:hover {
 	border-color: #A9A9A9;
 }
-section > article > header {
+section > article.article > header {
 	margin: 10px 0px;
 	font-size: 25px;
 	color: #8B0000;
 	text-decoration: underline;
 }
-section > article > header:hover {
+section > article.person > header:hover {
 	color: red;
 }
 section  article  header img {
@@ -78,7 +78,7 @@ section  article  header img {
 	margin-top: 10px;
 	box-sizing: border-box;
 }
-section  article  header img:hover {
+section  article.person  header img:hover {
 	border: 3px solid white;
 }
 p.info {
@@ -86,12 +86,12 @@ p.info {
 	margin: 10px 0px;
 	height: 170px;
 }
-section > article p.p-color {
+section > article.person p.p-color {
 	margin: 5px 0px;
 	color: #8B0000;
 	font-size: 20px;
 }
-section > article p.p-color:hover {
+section > article.person p.p-color:hover {
 	color: red;
 }
 p.final-words {
