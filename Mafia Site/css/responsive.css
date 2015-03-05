@@ -1,0 +1,606 @@
+@media only screen and (min-width: 961px) and (max-width: 1024px) {
+	#menu > #main-menu > li > a {
+		margin: 0;
+	}
+
+	#menu > #main-menu > li > a:hover {
+		margin: 0;
+	}
+
+	.members {
+		display: inline;
+	}
+
+	.members > article {
+		width: 70%;
+		margin-left: 15%;
+		margin-left: 15%;
+	}
+
+	.members > aside {
+		float: none;
+		margin: 0;
+		width: 70%;
+		margin-left: 15%;
+		margin-left: 15%;
+	}
+
+	.members > aside > ul {
+		display: flex;
+		justify-content: space-between;
+	}
+}
+
+@media only screen and (min-width: 769px) and (max-width: 960px) {
+	.logo-image {
+		display: none;
+	}
+
+	.header-text {
+		width: 100%;
+	}
+
+	#menu > #main-menu > li > a {
+		margin: 0;
+		font-size: 1em;
+	}
+
+	#menu > #main-menu > li > a:hover {
+		margin: 0;
+		font-size: 1em;
+	}
+
+	#menu > #main-menu > li > #sub-menu > li > a {
+		width: 75px;
+		font-size: 0.8em;
+	}
+
+	#index-content > article > header > h1 {
+		font-size: 1em;
+	}
+
+	#index-content > article > div > p {
+		font-size: 0.9em;
+	}
+
+	.members {
+		display: inline;
+	}
+
+	.members > header {
+		margin: 10px 0px 0px 0px;
+	}
+
+	.members > header > h1 {
+		margin: 0;
+		font-size: 2em;
+	}
+
+	.members > article {
+		width: 70%;
+		margin-left: 15%;
+		margin-left: 15%;
+	}
+
+	.members > aside {
+		float: none;
+		margin: 0;
+		width: 70%;
+		margin-left: 15%;
+		margin-left: 15%;
+	}
+
+	.members > aside > ul {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	#contact-contents > article {
+		padding: 0;
+	}
+
+	.map {
+		display: none;
+	}
+
+	.map-medium {
+		display: inline;
+	}
+
+	footer > div > h3 {
+		font-size: 1.5em;
+	}
+
+	footer > div > span {
+		font-size: 1.5em;
+	}
+
+	#message {
+		font-size: 0.9em;
+	}
+
+	.about-us > header > h3 {
+		font-size: 20px;
+	}
+
+	.about-us > article {
+		width: 230px;
+	}
+
+	p.info {
+		font-size: 15px;
+	}
+
+	.about-us > article p.p-color {
+		font-size: 15px;
+		margin: 0;
+	}
+}
+
+@media only screen and (min-width: 641px) and (max-width: 768px) {
+	.logo-image {
+		display: none;
+	}
+
+	.header-text {
+		width: 100%;
+		font-size: 4em;
+	}
+
+	#menu > #main-menu > li > a {
+		margin: 0;
+		font-size: 1em;
+	}
+
+	#menu > #main-menu > li > a:hover {
+		margin: 0;
+		font-size: 1em;
+	}
+
+	#menu > #main-menu > li > #sub-menu > li {
+		display: none;
+	}
+
+	#index-content > article > header > h1 {
+		font-size: 1em;
+	}
+
+	#index-content > article > div > p {
+		font-size: 0.9em;
+	}
+
+	.members {
+		display: inline;
+	}
+
+	.members > header {
+		margin: 10px 0px 0px 0px;
+	}
+
+	.members > header > h1 {
+		margin: 0;
+		font-size: 2em;
+	}
+
+	.members > article {
+		width: 70%;
+		margin-left: 15%;
+		margin-left: 15%;
+	}
+
+	.members > aside {
+		float: none;
+		margin: 0;
+		width: 70%;
+		margin-left: 15%;
+		margin-left: 15%;
+	}
+
+	.members > aside > ul {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	#contact-contents > article {
+		padding: 0;
+	}	
+
+	#contact-contents > article > .contacts {
+		width: 100%;
+	}
+
+	#contact-contents > article > .contacts > .contact-details {
+		font-size: 20px;
+	}
+
+	.map {
+		display: none;
+	}
+
+	.map-medium {
+		display: none;
+	}
+
+	.map-small {
+		display: inline;
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+
+	footer > div > h3 {
+		font-size: 1.3em;
+	}
+
+	footer > div > span {
+		font-size: 1.3em;
+	}
+
+	footer > .column {
+		width: 25%;
+	}
+
+	.validators {
+		display: none;
+	}
+
+	#message {
+		font-size: 0.9em;
+	}
+
+	.about-us > header > h3 {
+		font-size: 20px;
+	}
+
+	.about-us > article {
+		width: 200px;
+	}
+
+	.about-us > article > header > h4 {
+		font-size: 20px;
+	}
+
+	p.info {
+		font-size: 14px;
+	}
+
+	.about-us > article p.p-color {
+		font-size: 14px;
+		margin: 0;
+	}
+
+	.about-us > p.final-words {
+		font-size: 14px;
+	}
+}
+
+@media only screen and (min-width: 481px) and (max-width: 640px) {
+	.logo-image {
+		display: none;
+	}
+
+	.header-text {
+		width: 100%;
+		font-size: 3em;
+	}
+
+	#menu > #main-menu > li > a {
+		margin: 0;
+		font-size: 0.9em;
+	}
+
+	#menu > #main-menu > li > a:hover {
+		margin: 0;
+		font-size: 0.9em;
+	}
+
+	#menu > #main-menu > li > #sub-menu > li {
+		display: none;
+	}
+
+	#index-content > article > header > h1 {
+		font-size: 1em;
+	}
+
+	#index-content > article > div > p {
+		font-size: 0.9em;
+	}
+
+	.members {
+		display: inline;
+	}
+
+	.members > header {
+		margin: 10px 0px 0px 0px;
+	}
+
+	.members > header > h1 {
+		margin: 0;
+		font-size: 2em;
+	}
+
+	.members > article {
+		width: 70%;
+		margin-left: 15%;
+		margin-left: 15%;
+	}
+
+	.members > article > header > img {
+		max-width: 100%;
+	}
+
+	.members > aside {
+		float: none;
+		margin: 0;
+		width: 70%;
+		margin-left: 15%;
+		margin-left: 15%;
+	}
+
+	.members > aside > ul {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.members > aside > ul > li {
+		padding: 5px;
+	}
+
+	#contact-contents {
+		margin: 30px 0px 0px 0px;
+	}
+
+	#contact-contents > article {
+		padding: 0 0 10px 0px;
+	}	
+
+	#contact-contents > article > .contacts {
+		width: 100%;
+	}
+
+	#contact-contents > article > .contacts > .contact-details {
+		font-size: 20px;
+	}
+
+	.map {
+		display: none;
+	}
+
+	.map-medium {
+		display: none;
+	}
+
+	.map-small {
+		display: inline;
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+
+	footer {
+		display: block;
+	}
+
+	footer > div {
+		border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+	}
+
+	footer > div > h3 {
+		font-size: 1.6em;
+	}
+
+	footer > div > span {
+		font-size: 1.5em;
+	}
+
+	footer > .column {
+		width: 100%;
+		text-align: center;
+	}
+
+	.validators {
+		display: none;
+	}
+
+	#message {
+		font-size: 0.8em;
+		padding-top: 5px;
+		margin: 5px auto;
+	}
+
+	.about-us {
+		padding: 0;
+		margin: 5px auto;
+	}
+
+	.about-us > header > h3 {
+		font-size: 15px;
+	}
+
+	.about-us > article {
+		width: 250px;
+	}
+
+	.about-us > article > header > h4 {
+		font-size: 20px;
+	}
+
+	p.info {
+		font-size: 14px;
+	}
+
+	.about-us > article p.p-color {
+		font-size: 14px;
+		margin: 0;
+	}
+
+	.about-us > p.final-words {
+		font-size: 14px;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.logo-image {
+		display: none;
+	}
+
+	#page-header {
+		margin 10px auto;
+	}
+
+	.header-text {
+		width: 100%;
+		font-size: 2em;
+	}
+
+	#menu > #main-menu > li {
+		display: block;
+		margin: 24px;
+	}
+
+	#menu > #main-menu > li > a {
+		margin: 0;
+		font-size: 0.9em;
+	}
+
+	#menu > #main-menu > li > a:hover {
+		margin: 0;
+		font-size: 0.9em;
+	}
+
+	#menu > #main-menu > li > #sub-menu > li {
+		display: none;
+	}
+
+	#index-content > article > header > h1 {
+		font-size: 1em;
+	}
+
+	#index-content > article > div > p {
+		font-size: 0.9em;
+	}
+
+	.members {
+		display: inline;
+	}
+
+	.members > header {
+		margin: 10px 0px 0px 0px;
+	}
+
+	.members > header > h1 {
+		margin: 0;
+		font-size: 2em;
+	}
+
+	.members > article {
+		width: 70%;
+		margin-left: 15%;
+		margin-left: 15%;
+	}
+
+	.members > article > header > img {
+		max-width: 100%;
+	}
+
+	.members > aside {
+		float: none;
+		margin: 0;
+		width: 70%;
+		margin-left: 15%;
+		margin-left: 15%;
+	}
+
+	.members > aside > ul {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.members > aside > ul > li {
+		padding: 5px;
+	}
+
+	#contact-contents {
+		margin: 30px 0px 0px 0px;
+	}
+
+	#contact-contents > article {
+		padding: 0 0 10px 0px;
+	}	
+
+	#contact-contents > article > .contacts {
+		width: 100%;
+	}
+
+	#contact-contents > article > .contacts > .contact-details {
+		font-size: 13px;
+	}
+
+	#contact-contents > article > .contacts > .contact-details > img {
+		max-width: 20px;
+		margin: 0px;
+	}
+
+	.map {
+		display: none;
+	}
+
+	footer {
+		display: block;
+	}
+
+	footer > div {
+		border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+	}
+
+	footer > div > h3 {
+		font-size: 1.3em;
+	}
+
+	footer > div > span {
+		font-size: 1.3em;
+	}
+
+	footer > .column {
+		width: 100%;
+		text-align: center;
+	}
+
+	.validators {
+		display: none;
+	}
+
+	#message {
+		font-size: 0.8em;
+		padding-top: 5px;
+		margin: 5px auto;
+	}
+
+	.about-us {
+		padding: 0;
+		margin: 5px auto;
+	}
+
+	.about-us > header > h3 {
+		font-size: 15px;
+	}
+
+	.about-us > article {
+		width: 250px;
+	}
+
+	.about-us > article > header > h4 {
+		font-size: 20px;
+	}
+
+	p.info {
+		font-size: 14px;
+	}
+
+	.about-us > article p.p-color {
+		font-size: 14px;
+		margin: 0;
+	}
+
+	.about-us > p.final-words {
+		font-size: 14px;
+	}
+}

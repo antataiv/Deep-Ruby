@@ -3,6 +3,14 @@
 	font-family: Arial;
 }
 
+.map-medium {
+	display: none;
+}
+
+.map-small {
+	display: none;
+}
+
 #contact-contents > article {
 	color: white;
 	font-size: 1.3em;

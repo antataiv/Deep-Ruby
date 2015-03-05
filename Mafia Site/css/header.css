@@ -50,16 +50,16 @@ body {
 
 #menu > #main-menu > li:hover #sub-menu {
 	display: block;
+	width: 150px;
 }
 
 #menu > #main-menu > li > #sub-menu > li > a {
 	padding-top: 10px;
-	margin-left: 100px;
 	display: block;
 	height: 30px;
 	color: darkred;
 	background-color: darkgrey;
-	border: 1px solid darkred;
+	border-bottom: 1px solid darkred;
 	text-decoration: none;
 	text-align: center;
 	vertical-align: middle;
